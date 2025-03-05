@@ -1,69 +1,71 @@
+🛡️ File Integrity Checker
+A Python tool to monitor file changes using hash values and detect unauthorized modifications.
 
-File Integrity Checker 🛡️
-A Python script to monitor changes in files by calculating and comparing hash values. Helps ensure file integrity and detect unauthorized modifications.
+🚀 Ensures file integrity | 🔍 Detects changes | 📝 Logs all modifications
 
-Features ✨
-✅ Detects new, modified, and missing files
 
-✅ Uses SHA-256 hashing for security
 
-✅ Logs file changes with previous and new hash values
+🔥 Features
+✅ Detects changes in files by comparing hash values
+✅ Logs modifications with previous & new hash values
+✅ Identifies missing or newly added files
+✅ Runs automatically every 10 seconds for 1 minute
+✅ Uses SHA-256 hashing for strong security
 
-✅ Runs for 1 minute, checking every 10 seconds
-
-Installation & Usage 🚀
-
-1. Clone the Repository
-
+🚀 Installation & Usage
+1️⃣ Clone the Repository
+sh
+Copy
+Edit
 git clone https://github.com/Hipster2110/File-Integrity-Checker.git
-
 cd File-Integrity-Checker
-
-2. Install Python (If Not Installed)
-
-Make sure you have Python 3+ installed. You can download it from www.python.org.
-
-3. Run the Script
-
+2️⃣ Run the Script
+sh
+Copy
+Edit
 python "File Integrity Checker.py"
-
 This will monitor the specified files and log any changes.
 
-How It Works ⚙️
+⚙️ How It Works
+📌 The script calculates SHA-256 hashes of files and compares them with stored hashes.
+📌 It logs warnings if a file is modified, newly added, or missing.
 
-The script calculates SHA-256 hashes of files.
+Example Logs
+🟢 New File Detected
 
-It compares them with previously stored hashes in file_hashes.json.
-
-If a file is modified, it logs:
-
-[WARNING] File changed: example.txt
-
-Previous Hash: abc123...
-
-New Hash: def456...
-
-If a new file is detected, it logs:
-
+vbnet
+Copy
+Edit
 [INFO] New file detected: newfile.py
+Hash: abc123xyz...
+🟡 File Modified
 
-Hash: xyz789...
+mathematica
+Copy
+Edit
+[WARNING] File changed: example.txt
+Previous Hash: abc123...
+New Hash: def456...
+🔴 File Missing
 
-If a file is missing, it logs an error.
+arduino
+Copy
+Edit
+[ERROR] File not found: test.py
+📝 All logs are saved in integrity_log.txt 📂
 
-Logs are saved in integrity_log.txt 📄.
+⚙️ Customization
+🔹 Change monitored files → Edit this in the script:
 
-Configuration ⚙️
-
-To monitor specific files, edit this line in the script:
-
+python
+Copy
+Edit
 files_to_monitor = ["example.txt", "test.py"]
+🔹 Change scan frequency → Modify CHECK_INTERVAL (default: 10 sec)
 
-Modify CHECK_INTERVAL for a different check frequency.
+🤝 Contributing
+💡 Found a bug? Have a feature request? Open an issue or submit a PR!
 
-Contributing 🤝
+📜 License
+📌 MIT License - Free to use and modify.
 
-Want to improve the tool? Feel free to fork and submit a PR! 🚀
-
-License 📜
-MIT License - Free to use and modify.
