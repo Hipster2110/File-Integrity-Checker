@@ -11,5 +11,59 @@ Features ✨
 
 ✅ Runs for 1 minute, checking every 10 seconds
 
+Installation & Usage 🚀
+
+1. Clone the Repository
+
+git clone https://github.com/Hipster2110/File-Integrity-Checker.git
+
+cd File-Integrity-Checker
+
+2. Install Python (If Not Installed)
+
+Make sure you have Python 3+ installed. You can download it from www.python.org.
+
+3. Run the Script
+
+python "File Integrity Checker.py"
+
+This will monitor the specified files and log any changes.
+
+How It Works ⚙️
+
+The script calculates SHA-256 hashes of files.
+
+It compares them with previously stored hashes in file_hashes.json.
+
+If a file is modified, it logs:
+
+[WARNING] File changed: example.txt
+
+Previous Hash: abc123...
+
+New Hash: def456...
+
+If a new file is detected, it logs:
+
+[INFO] New file detected: newfile.py
+
+Hash: xyz789...
+
+If a file is missing, it logs an error.
+
+Logs are saved in integrity_log.txt 📄.
+
+Configuration ⚙️
+
+To monitor specific files, edit this line in the script:
+
+files_to_monitor = ["example.txt", "test.py"]
+
+Modify CHECK_INTERVAL for a different check frequency.
+
+Contributing 🤝
+
+Want to improve the tool? Feel free to fork and submit a PR! 🚀
+
 License 📜
 MIT License - Free to use and modify.
