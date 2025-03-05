@@ -1,0 +1,182 @@
+[WARNING] File changed: example.txt
+[WARNING] File changed: example.txt
+[WARNING] File changed: example.txt
+[WARNING] File changed: test.py
+[WARNING] File changed: test.py
+[WARNING] File changed: example.txt
+Previous Hash: decd08136b476e206f02a9935b383584d2f152cb20d82f7b29a3f21935a659c8
+New Hash: f4572051a1823aaa4bfd56787e56fc56cf669e9e20e41c5a3b877074017a7a28
+
+[WARNING] File changed: test.py
+Previous Hash: adb8138237c485a6792ebb7042fda54c23b977c5cd1af45365723949dc45d4c3
+New Hash: 69b544d4e001f7c86343206f8dcc082eb524aa9b7dc5cbe216435872f8836232
+
+[WARNING] File changed: test.py
+Previous Hash: 69b544d4e001f7c86343206f8dcc082eb524aa9b7dc5cbe216435872f8836232
+New Hash: 5880fa5eb8fb3cce82b3124e9ee34e783bd688aabc6ba16e57bf7dd4311f3eaf
+
+[INFO] New file detected: ./CS & EH.pdf
+Hash: e155ded5f745572fce13d517d8fed59c9f95621b87cf8ba0691ef272e26cd00a
+
+[INFO] New file detected: ./example.txt
+Hash: f4572051a1823aaa4bfd56787e56fc56cf669e9e20e41c5a3b877074017a7a28
+
+[INFO] New file detected: ./File Integrity Checker.py
+Hash: d4c65ea400217dda56ed2ccfaa7b42e56549573df3cd14e8f5eac8239ed3e754
+
+[INFO] New file detected: ./file_hashes.json
+Hash: 303dc634616d9d8cc0fcaa0df88372c265ceca42b023f472e1e3ca412df4110c
+
+[INFO] New file detected: ./integrity_log.txt
+Hash: 8eea3cd594b54797452282aa86da6a12b92cf3379cbb26e8226078b7ebed38d7
+
+[INFO] New file detected: ./test.py
+Hash: 5880fa5eb8fb3cce82b3124e9ee34e783bd688aabc6ba16e57bf7dd4311f3eaf
+
+[WARNING] File changed: ./file_hashes.json
+Previous Hash: 303dc634616d9d8cc0fcaa0df88372c265ceca42b023f472e1e3ca412df4110c
+New Hash: 65f8adab874c97e8ccf67231c0aef08668bcf8f6146062df3dedce4ab993884a
+
+[WARNING] File changed: ./integrity_log.txt
+Previous Hash: 8eea3cd594b54797452282aa86da6a12b92cf3379cbb26e8226078b7ebed38d7
+New Hash: 397b375e9cb874d95b2ecbbb3fd60ee490471d7d7d3a2c62f071cbc1ffac6e36
+
+[WARNING] File changed: ./file_hashes.json
+Previous Hash: 65f8adab874c97e8ccf67231c0aef08668bcf8f6146062df3dedce4ab993884a
+New Hash: 940f0bb7e02900cd7d061f3071efb365b65484569fcba986b34ec8563a5e437e
+
+[INFO] New file detected: ./help.txt
+Hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+
+[WARNING] File changed: ./integrity_log.txt
+Previous Hash: 397b375e9cb874d95b2ecbbb3fd60ee490471d7d7d3a2c62f071cbc1ffac6e36
+New Hash: e22f9af25740b2d3c72433bd49fae1bffc0a5ea30f97ac470c31a47d37e1243d
+
+[WARNING] File changed: ./file_hashes.json
+Previous Hash: 940f0bb7e02900cd7d061f3071efb365b65484569fcba986b34ec8563a5e437e
+New Hash: 8c3736ba13a7f2e3521297819da5f935b9d91b530d5115d09a07a29418bcfceb
+
+[WARNING] File changed: ./integrity_log.txt
+Previous Hash: e22f9af25740b2d3c72433bd49fae1bffc0a5ea30f97ac470c31a47d37e1243d
+New Hash: 500bd9f2b7322103df783f3fd09f57b3454fb493a10aecde8254375cd7da6c6e
+
+[WARNING] File changed: ./file_hashes.json
+Previous Hash: 8c3736ba13a7f2e3521297819da5f935b9d91b530d5115d09a07a29418bcfceb
+New Hash: b7f9468a5b0a2758af2ecef53b01f9e8b244b683367cdfa372f6532493755afe
+
+[WARNING] File changed: ./integrity_log.txt
+Previous Hash: 500bd9f2b7322103df783f3fd09f57b3454fb493a10aecde8254375cd7da6c6e
+New Hash: f8b6b8a720c17bd326b3993e3a15fd454290b4714cf67b19a9dc253b2c8998cd
+
+[WARNING] File changed: ./file_hashes.json
+Previous Hash: b7f9468a5b0a2758af2ecef53b01f9e8b244b683367cdfa372f6532493755afe
+New Hash: 1fe963c8d3513f53cc4d399e26fb45cb9d4b5f54884a55223235ec809e8a3f9c
+
+[WARNING] File changed: ./integrity_log.txt
+Previous Hash: f8b6b8a720c17bd326b3993e3a15fd454290b4714cf67b19a9dc253b2c8998cd
+New Hash: 9fd74a57d69d5fcfd56528fe667d4da9a8d8633ca4814a02249e897344abc321
+
+[WARNING] File changed: ./file_hashes.json
+Previous Hash: 1fe963c8d3513f53cc4d399e26fb45cb9d4b5f54884a55223235ec809e8a3f9c
+New Hash: b2513dce11819b0d7b98b6f0f8ec80e4ca1a63acd4a88d8f92ce65e95222f974
+
+[WARNING] File changed: ./integrity_log.txt
+Previous Hash: 9fd74a57d69d5fcfd56528fe667d4da9a8d8633ca4814a02249e897344abc321
+New Hash: c2f566470a13be67d5fcfe4d5c0ba7bc0bd89111964c901a1cba24db1f85e236
+
+[WARNING] File changed: ./file_hashes.json
+Previous Hash: b2513dce11819b0d7b98b6f0f8ec80e4ca1a63acd4a88d8f92ce65e95222f974
+New Hash: aaf2585f3ae83c864845a6f5625e02da9cb008e3dc37fec514ac37ab0e84a81f
+
+[WARNING] File changed: ./integrity_log.txt
+Previous Hash: c2f566470a13be67d5fcfe4d5c0ba7bc0bd89111964c901a1cba24db1f85e236
+New Hash: 0f725edfab4be57db2b99b254f4f2d948d43b1f1b2ac60996d2def07de37d15b
+
+[WARNING] File changed: ./file_hashes.json
+Previous Hash: aaf2585f3ae83c864845a6f5625e02da9cb008e3dc37fec514ac37ab0e84a81f
+New Hash: d3b9af8b81cd582906cf53a5d07845875d267c3fa492545f45a4fcc0dd9bee8e
+
+[WARNING] File changed: ./integrity_log.txt
+Previous Hash: 0f725edfab4be57db2b99b254f4f2d948d43b1f1b2ac60996d2def07de37d15b
+New Hash: dd0e5121cc890248e85d9309964c1a7ca4ed01234cb0eae798b157f78431fc55
+
+[WARNING] File changed: ./file_hashes.json
+Previous Hash: d3b9af8b81cd582906cf53a5d07845875d267c3fa492545f45a4fcc0dd9bee8e
+New Hash: 63e8f143e3eabbcf8f98d09f8cb0b83a09b4fd3ff687f735c60e0dc2715489a8
+
+[WARNING] File changed: ./integrity_log.txt
+Previous Hash: dd0e5121cc890248e85d9309964c1a7ca4ed01234cb0eae798b157f78431fc55
+New Hash: a47cfc31fb7cd2e7a051dab21a167778ea93c43383fb49aca4e07814286409d1
+
+[WARNING] File changed: ./file_hashes.json
+Previous Hash: 63e8f143e3eabbcf8f98d09f8cb0b83a09b4fd3ff687f735c60e0dc2715489a8
+New Hash: bb1aac485895d4e2bc1750780adcf17b21560ad05c5f03116b485add2d2adae8
+
+[WARNING] File changed: ./integrity_log.txt
+Previous Hash: a47cfc31fb7cd2e7a051dab21a167778ea93c43383fb49aca4e07814286409d1
+New Hash: 715088ec4473c3d71a6083ca10efa4bf42e9b66d4307972a7b9857a491d00c25
+
+[WARNING] File changed: ./file_hashes.json
+Previous Hash: bb1aac485895d4e2bc1750780adcf17b21560ad05c5f03116b485add2d2adae8
+New Hash: b3aaeb3a415f6c28b6c37473ec3b4d8841347267602d5b0db4d83f749a405d86
+
+[WARNING] File changed: ./integrity_log.txt
+Previous Hash: 715088ec4473c3d71a6083ca10efa4bf42e9b66d4307972a7b9857a491d00c25
+New Hash: db6b93a925e4accd326c359d78a0519ff102b7418bf62f033d9ca6356ae6bb23
+
+[WARNING] File changed: ./File Integrity Checker.py
+Previous Hash: d4c65ea400217dda56ed2ccfaa7b42e56549573df3cd14e8f5eac8239ed3e754
+New Hash: d3ae9273436747e03f491b3b242e77920a3fc8e278b3fd154760289f3765921d
+
+[WARNING] File changed: ./file_hashes.json
+Previous Hash: b3aaeb3a415f6c28b6c37473ec3b4d8841347267602d5b0db4d83f749a405d86
+New Hash: b922d7f0542cfc7dc6f93f168c8567c4d9776e46203c9e5fc6c719e2eae759d5
+
+[WARNING] File changed: ./integrity_log.txt
+Previous Hash: db6b93a925e4accd326c359d78a0519ff102b7418bf62f033d9ca6356ae6bb23
+New Hash: 7fd74d329e7f46a545bdb2126dd66d2d632ef1060b12bbdd027257ca3b09f366
+
+[INFO] New file detected: example.txt
+Hash: f4572051a1823aaa4bfd56787e56fc56cf669e9e20e41c5a3b877074017a7a28
+
+[INFO] New file detected: test.py
+Hash: 5880fa5eb8fb3cce82b3124e9ee34e783bd688aabc6ba16e57bf7dd4311f3eaf
+
+[WARNING] File changed: test.py
+Previous Hash: 5880fa5eb8fb3cce82b3124e9ee34e783bd688aabc6ba16e57bf7dd4311f3eaf
+New Hash: 584cc71ffe28fca23681c4673acfff26996364cd5360955b9b44260fce7407ab
+
+[WARNING] File changed: test.py
+Previous Hash: 584cc71ffe28fca23681c4673acfff26996364cd5360955b9b44260fce7407ab
+New Hash: d2117ebd0b165190b9545855d51892755a72e973306c2cb497bab400cbd53372
+
+[WARNING] File changed: test.py
+Previous Hash: d2117ebd0b165190b9545855d51892755a72e973306c2cb497bab400cbd53372
+New Hash: 6b6955ffb082caef2c35d70e7dc565799c0cf23eaa7302e0618dbd3040bc687f
+
+[INFO] New file detected: integrity_log.txt
+Hash: 8d731eacc1aaccb3a8a70c0a46503ae2fd0f41e4837224fe6cb7c23c010b9f5b
+
+[WARNING] File changed: integrity_log.txt
+Previous Hash: 8d731eacc1aaccb3a8a70c0a46503ae2fd0f41e4837224fe6cb7c23c010b9f5b
+New Hash: 451451619f1f0d0a30b489485ad666fc0e9c29871ce9771a057a8c1f364cb426
+
+[WARNING] File changed: integrity_log.txt
+Previous Hash: 451451619f1f0d0a30b489485ad666fc0e9c29871ce9771a057a8c1f364cb426
+New Hash: 472a9ccadf5ba37f441b2ea6c97b9bfdb158d558b639e71a980b41e44080edd7
+
+[WARNING] File changed: integrity_log.txt
+Previous Hash: 472a9ccadf5ba37f441b2ea6c97b9bfdb158d558b639e71a980b41e44080edd7
+New Hash: c8a2576c16d0b0f887df62d6c4da05beea9273caed58c87ac4308ef4aac64c74
+
+[WARNING] File changed: example.txt
+Previous Hash: f4572051a1823aaa4bfd56787e56fc56cf669e9e20e41c5a3b877074017a7a28
+New Hash: 47a13c1ce13a5c75c4ecd88039961158cb979a535257f6a98dfe0ef9df3c51b5
+
+[WARNING] File changed: test.py
+Previous Hash: 6b6955ffb082caef2c35d70e7dc565799c0cf23eaa7302e0618dbd3040bc687f
+New Hash: 4f1a28ed3f1bc47cb43d69ac08a91bc358bca07cd756b8af7443768f8164439e
+
+[INFO] New file detected: help.txt
+Hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+
