@@ -1,40 +1,46 @@
-File Integrity Checker
+# File Integrity Checker
 
-A Python script to monitor file changes by calculating and comparing hash values. It helps detect modifications, new files, and missing files.
+## Overview
+The **File Integrity Checker** is a Python-based tool that monitors changes in files by calculating and comparing their hash values. It helps ensure file integrity and detects any unauthorized modifications.
 
-Features
+## Features
+- Calculates hash values using SHA-256
+- Monitors specific files for changes
+- Logs previous and new hash values when a file is modified
+- Detects new and missing files
+- Runs checks every 10 seconds for 1 minute
+- Stores hash values and logs in separate files
+- Displays timestamps for each check
 
-Detects file modifications using SHA-256 hashing
+## Installation
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/Hipster2110/File-Integrity-Checker.git
+   cd File-Integrity-Checker
+   ```
+2. Install Python (if not already installed).
+3. No additional libraries are required, as the script uses built-in Python modules.
 
-Logs changes with previous and new hash values
+## Usage
+1. Modify the `files_to_monitor` list in the script to specify the files you want to track.
+2. Run the script:
+   ```sh
+   python "File Integrity Checker.py"
+   ```
+3. The script will run for 1 minute, checking every 10 seconds.
+4. Check `integrity_log.txt` for detailed logs of detected changes.
 
-Identifies missing or newly added files
+## Logging
+- All detected changes are logged in `integrity_log.txt`.
+- The script records:
+  - File modifications with old and new hash values
+  - Newly detected files
+  - Missing files
+  - Timestamp of each check
 
-Runs automatically every 10 seconds for 1 minute
+## Ownership
+This project is developed and maintained by **Hipster2110**.
 
-Usage
+## License
+This project is open-source and available under the MIT License.
 
-Clone the repository:
-
-git clone https://github.com/Hipster2110/File-Integrity-Checker.git
-
-cd File-Integrity-Checker
-
-Run the script:
-
-python "File Integrity Checker.py"
-
-How It Works
-
-The script checks files listed in files_to_monitor and logs any changes.
-
-Logs are stored in integrity_log.txt.
-
-Customization
-
-Edit files_to_monitor in the script to track different files.
-
-Change CHECK_INTERVAL to adjust the checking frequency.
-
-License
-This project is licensed under the MIT License.
