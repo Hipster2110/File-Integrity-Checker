@@ -2,11 +2,13 @@ import hashlib
 import os
 import json
 import time
+from datetime import datetime  # Import datetime for timestamps
 
 # Where we store hashes and logs
 HASH_FILE = "file_hashes.json"  # Keeps track of previous file hashes
 LOG_FILE = "integrity_log.txt"  # Stores logs of file changes
 CHECK_INTERVAL = 10  # Time gap between checks (in seconds)
+RUN_DURATION = 60  # Total duration to run the checker (in seconds)
 
 def calculate_hash(file_path, algorithm='sha256'):
     """Generates a hash value for the given file."""
@@ -32,10 +34,14 @@ def save_hashes(hashes):
         json.dump(hashes, f, indent=4)
 
 def log_message(message):
-    """Writes log messages to a file and prints them to the console."""
+    """Writes log messages to a file with a timestamp and prints them to the console."""
+    timestamp = datetime.now().strftime("[%Y-%m-%d %H:%M:%S]")  # Format: [YYYY-MM-DD HH:MM:SS]
+    log_entry = f"{timestamp} {message}"
+    
     with open(LOG_FILE, "a") as f:
-        f.write(message + "\n")
-    print(message)  # Display message in terminal too
+        f.write(log_entry + "\n")
+    
+    print(log_entry)  # Display message in terminal too
 
 def monitor_files(file_paths):
     """Checks for file modifications by comparing old and new hash values."""
@@ -57,9 +63,10 @@ def monitor_files(file_paths):
     save_hashes(current_hashes)  # Save the latest hash values
 
 def main():
-    """Runs the file integrity checker for 1 minute, checking every 10 seconds."""
+    """Runs the file integrity checker for a set duration, checking every few seconds."""
     files_to_monitor = ["example.txt", "test.py"]  # Files to keep an eye on
-    end_time = time.time() + 60  # Stop after 1 minute
+    end_time = time.time() + RUN_DURATION  # Stop after RUN_DURATION seconds
+    
     while time.time() < end_time:
         monitor_files(files_to_monitor)  # Check file status
         time.sleep(CHECK_INTERVAL)  # Wait before running again
